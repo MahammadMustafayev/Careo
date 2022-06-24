@@ -1,0 +1,39 @@
+﻿@model FeedBack
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Manaje/Views/Shared/_ManajeLayout.cshtml";
+}
+
+<div class="container-fluid">
+    <form method="post" enctype="multipart/form-data">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label asp-for="FullName">FullName</label>
+                <input asp-for="FullName" class="form-control" placeholder="FullName">
+            </div>
+            <div class="form-group col-md-4">
+                <label asp-for="Description">Description</label>
+                <input asp-for="Description" class="form-control" placeholder="Description">
+            </div>
+            <div class="form-group col-md-4">
+                <label asp-for="PersonStatus">Person Status</label>
+                <input asp-for="PersonStatus" class="form-control" placeholder="Person Status">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label asp-for="IsDeleted">IsDeleted</label>
+                <input asp-for="IsDeleted" class="form-control" placeholder="IsDeleted">
+            </div>
+            <div class="form-group col-md-4">
+                <label asp-for="Photo"></label>
+                <input type="file" asp-for="Photo" class="form-control" placeholder="Image">
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Create</button>
+        </div>
+    </form>
+</div>
+
+

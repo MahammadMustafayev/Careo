@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.red{
+    color: red !important;
+}
+.btn-light:hover{
+    background-color: rgb(26, 26, 26) !important;
+    border:  1px solid rgb(26, 26, 26) !important;
+    transition: 0.5s !important;
+}
+.btn-light a:hover{
+    color:  white !important;
+    transition: 0.5s !important;
+}
+.border-service{
+    border: 1px solid rgb(218, 218, 218) !important;
+}
+.border-service:hover{
+    border-radius: 10px !important ;
+    background-color: red !important;
+    color:white !important;
+    transition: 0.5s !important;
+
+}
+.b:hover{
+    border-radius: 10px !important;
+    border:  1px solid red !important;
+    background-color: red !important;
+    color:  white !important;
+    transition: 0.5s ;
+}
+.a:hover{
+    border-radius: 10px !important;
+    border:  1px solid white !important;
+    background-color: white !important;
+    
+    transition: 0.3s; 
+}
+.a a:hover{
+    color:  #000 !important;
+}
+.f:hover{
+    background-color: white !important;
+    border: 1px solid white !important;
+}
+.l:hover{
+    color: red !important;
+}
